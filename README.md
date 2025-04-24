@@ -17,6 +17,7 @@ Cette application web interactive présente les résultats des élections géné
 - Chart.js pour la visualisation des données
 - GeoServer pour la publication des couches géographiques
 - Services WMS (Web Map Service)
+- QGIS pour la création du fichier du style SLD pour le WMS
 
 ## Installation locale
 1. Clonez ce dépôt : `git clone https://github.com/lawoh/elctions_quebec_sig.git`
@@ -35,4 +36,4 @@ Les données utilisées dans cette application proviennent du Directeur généra
 - Franck Yannick Assiga
 
 ## Contexte
-Ce projet a été développé dans le cadre d'un travail universitaire pour démontrer l'application des Systèmes d'Information Géographique (SIG) sur le Web.
+Ce projet a été développé dans le cadre d'un travail universitaire sur les Systèmes d'Information Géographique (SIG) sur le Web.
