@@ -25,6 +25,11 @@ header {
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.about-btn:hover {
+    background-color: #e0e0e0;
 }
 
 .about-content {
@@ -68,4 +73,28 @@ header {
     color: var(--quebec-blue);
     position: absolute;
     left: 0;
+}
+
+/* Ajouts pour améliorer la technologie liste */
+.about-content ul li.tech-item {
+    margin-bottom: 0.7rem;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+    .about-content {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+    
+    header h1 {
+        margin-bottom: 0.8rem;
+        font-size: 1.5rem;
+    }
 }
