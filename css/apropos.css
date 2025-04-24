@@ -1,0 +1,71 @@
+:root {
+    --quebec-blue: #003399;
+    --quebec-white: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: var(--quebec-blue);
+    color: var(--quebec-white);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-btn {
+    background-color: var(--quebec-white);
+    color: var(--quebec-blue);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--quebec-white);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.about-content section {
+    margin-bottom: 2rem;
+}
+
+.about-content h2 {
+    color: var(--quebec-blue);
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--quebec-blue);
+    padding-bottom: 0.5rem;
+}
+
+.about-content p {
+    line-height: 1.6;
+    color: #333;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.about-content ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.about-content ul li::before {
+    content: "•";
+    color: var(--quebec-blue);
+    position: absolute;
+    left: 0;
+}
