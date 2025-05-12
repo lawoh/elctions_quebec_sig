@@ -27,7 +27,7 @@ Cette application web interactive présente les résultats des élections géné
 Consultez la version en ligne : [https://lawoh.github.io/elctions_quebec_sig/](https://lawoh.github.io/elctions_quebec_sig/)
 
 ## Sources des données
-Les données utilisées dans cette application proviennent du site élections du Québec et comprennent :
+Les données utilisées dans cette application proviennent du site élections Québec et comprennent :
 - Les résultats électoraux par candidat et par circonscription
 - Les limites géographiques des circonscriptions électorales
 
